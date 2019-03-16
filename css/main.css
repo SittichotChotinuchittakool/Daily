@@ -1,0 +1,158 @@
+.form-Login{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.form-Login .form-control{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.group-input{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    align-items: center;
+    text-align: center;
+}
+.head-login{
+    font-size: 50px;
+}
+footer{
+    font-size: 10px;
+}
+.form-register{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.form-register .form-control{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.test{
+    text-align: center;
+    align-items: center;
+}
+.col{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.col-sm-3{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    padding: 0px !important;
+}
+.row{
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.col-sm-8{
+    padding: 0px !important;
+}
+label{
+    margin-bottom: 0px !important;
+}
+input[type=button]{
+    width: 96%;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    width: 96%;
+    margin-bottom: 10px;
+}
+.col-sm-1{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px !important;
+}
+.form-mainPage{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    /* align-items: center; */
+}
+#showID{
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+body{
+    height: 100%;
+}
+.mainPage{
+    width: 99%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.form-mainPage input[type=button]:nth-child(even){
+    /* margin-top: 10px; */
+    margin-bottom: auto;
+}
+.form-mainPage input[type=button]:nth-child(odd){
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+.form-mainPage input[type=button]{
+    /* display: block; */
+    width: 100%;
+}
+.form-inline{
+    width: 100%;
+}
+.navbar-brand{
+    width: 20%;
+}
+img{
+    width: 4%;
+}
+a {
+    width: auto;
+}
+.setInlineBlock{
+    display: inline-block;
+}
+.navbar{
+    padding: 0px !important;
+}
+#addBtnID, #viewBtnID{
+    display:block;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inform-mainPage{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+}
+.inform-mainPage p{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mainPage .col-2{
+    padding: 0 5px;
+}

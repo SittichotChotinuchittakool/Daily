@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Daily</title>
+    <link rel="icon" href="../book-icon.png" />
+    <script src="../js/jquery-3.3.1.js" ></script>
+    <script src="../js/mainPage.js"></script>
+    <script src="../js/bootstrap/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../js/jquery-ui/jquery-ui.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="../book-icon.png" class="setInlineBlock"id="iconID"/>
+        <!-- <form class="form-inline my-2 my-lg-0"> -->
+        <div style="margin-left: auto">
+            <input type="button" value="Logout" id="logoutID" class="btn btn-outline-danger"/>
+        </div>
+        <!-- </form> -->
+    </nav>
+    <div class="mainPage">
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" id="modal-header-ID">
+                        <h1 class="modal-title" id="modal-title-ID"></h1>
+                    </div>
+                    <div class="modal-body" id="modal-body-ID">
+                        <span>Date Of Story : <p id="text_date_id"></p></span>
+                        <span>Story : <p id="text_story_id"></p></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <form class="mainPage col-2">
+                    <div class="inform-mainPage">
+                        <p>Username : <span id="userID"></span></p>
+                        <input type="button" value="Add Daily" class="btn btn-outline-primary" id="addBtnID"/>
+                        <input type="button" value="View Daily" class="btn btn-outline-primary" id="viewBtnID"/>
+                    </div>
+            </form>
+            <div class="col-10" >
+                <div id="addID">
+
+                </div>
+                <div id="viewID">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-copyright text-center py-3"><p>Create by Sittichot Chotinuchittakool<br>Using Jquery, PHP</p></footer>
+</body>
+</html>

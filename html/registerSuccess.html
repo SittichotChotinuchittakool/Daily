@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daily</title>
+        <link rel="icon" href="../book-icon.png" />
+        <script src="../js/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+        <script href= "js/bootstrap/bootstrap.min.js"></script>
+        <meta charset="utf-8"/>
+        <style>
+            .container{
+                width: 50%;
+                align-items: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Register Success</h1>
+            Redirect to index.html in <span id="countdownID">5</span> s
+        </div>
+        <script>
+            $(document).ready(function(){
+                console.log('ready');
+                var count = 5;
+                var a = setInterval(function(){
+                    count = count - 1;
+                    if(count < 0){
+                        clearInterval(a);
+                        window.location.href = "../index.html";
+                    }else{
+                        $("#countdownID").html(count);
+                    }
+                }, 1000);
+            });
+        </script>
+    </body>
+</html>
